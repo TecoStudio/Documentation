@@ -43,7 +43,7 @@ EssentialsX GeoIP 将地理 IP 查找功能集成到 EssentialsX 中，使您能
 
 您现在应该收到一个**许可证密钥**。 将其复制到安全的地方，因为以后您将无法再次看到原始密钥。
 
-![复制许可证密钥并将其保存在安全的地方。](./images/geoip-step5.png)
+![复制许可证密钥并将其保存在安全的地方。](/images/geoip-step5.png)
 
 接下来，您需要下载并安装 EssentialsXGeoIP jar - 您可以在 [[Installing-EssentialsX|here]] 中查看如何执行此操作。
 启动和停止服务器，然后在文本编辑器中打开 plugins/EssentialsGeoIP/config.yml。
