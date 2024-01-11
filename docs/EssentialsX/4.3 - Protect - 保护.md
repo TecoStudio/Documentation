@@ -1,0 +1,86 @@
+# Essentials Protect - 保护
+
+保护：
+
+
+```
+ prevent:
+   lava-flow:
+   water-flow:
+   water-bucket-flow:
+   fire-spread:
+   lava-fire-spread:
+   flint-fire:
+   lightning-fire-spread:
+   portal-creation:
+   tnt-explosion:
+   tnt-playerdamage:
+   tnt-minecart-explosion:
+   tnt-minecart-playerdamage:
+   fireball-explosion:
+   fireball-fire:
+   fireball-playerdamage:
+   witherskull-explosion:
+   witherskull-playerdamage:
+   wither-spawnexplosion:
+   wither-blockreplace:
+   creeper-explosion:
+   creeper-playerdamage:
+   creeper-blockdamage:
+   enderdragon-blockdamage:
+   enderman-pickup:
+   villager-death:
+   # 怪物不会跟随玩家。
+   # 权限 essentials.protect.entitytarget.bypass 会禁用此功能。
+   entitytarget:
+   #防止怪物生成
+   spawn:
+     creeper:
+     skeleton:
+     spider:
+     giant:
+     zombie:
+     slime:
+     ghast:
+     pig_zombie:
+     enderman:
+     cave_spider:
+     silverfish:
+     blaze:
+     magma_cube:
+     ender_dragon:
+     pig:
+     sheep:
+     cow:
+     chicken:
+     squid:
+     wolf:
+     mushroom_cow:
+     snowman:
+     ocelot:
+     iron_golem:
+     villager:
+     wither:
+     bat:
+     witch:
+ creeper:
+   max-height:
+```
+
+```
+ disable:
+   fall:
+   pvp:
+   drown:
+   suffocate:
+   lavadmg:
+   projectiles:
+   contactdmg:
+   firedmg:
+   lightning:
+   wither:
+   weather:
+     storm:
+     thunder:
+     lightning:
+```

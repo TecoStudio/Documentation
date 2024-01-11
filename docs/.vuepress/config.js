@@ -72,6 +72,36 @@ module.exports = {
         }
       ],
 
+      // EssentialX的侧栏
+      '/EssentialsX/': [
+        ['', 'EssentialsX介绍'],
+        {
+          title: "开始",
+          children: [
+            ['/EssentialsX/Start/Installation', '安装']
+            ['/EssentialsX/Start/Core-Error', '模块故障'],
+            ['/EssentialsX/Start/Update-Migrate', '改进 EssentialsX'],
+            ['/EssentialsX/Start/Translation-Modify-Messages', '翻译 & 消息自定义'],
+            ['/EssentialsX/Start/Frequently-Asked-Questions', '常见问题']
+          ]
+        },
+        {
+          title: '配置',
+          children: [
+            ['/EssentialsX/Configs/Command-Cooling', '命令冷却'],
+            ['/EssentialsX/Configs/Colour-Permissions', '颜色权限'],
+            ['/EssentialsX/Configs/Custom-Lists', '自定义&列表'],
+            ['/EssentialsX/Configs/Discord-Installation', 'EssentialsX Discord 安装指南'],
+          ]
+        },
+        {
+          title: '使用',
+          children: [
+            
+          ]
+        }
+      ],
+
       '/': [
         '',
       ]
