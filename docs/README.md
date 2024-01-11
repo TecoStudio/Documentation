@@ -10,5 +10,5 @@ features:
   details: TecoStudio 团队是一个以游戏技巧（红石方向）和地图制作为主，综合服务器插件、联机教程和材质包等多个领域的综合性团队。
 - title: 加入我们
   details: QQ交流群:790182308，入组请阅读 https://www.mcbbs.net/thread-1406076-1-1.html
-footer: GNU GPL v4 Licensed | Copyright © 2020-present TecoStudio
+footer: GNU GPL v3 Licensed | Copyright © 2020-present TecoStudio
 ---
