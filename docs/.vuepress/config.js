@@ -94,12 +94,6 @@ module.exports = {
             ['/EssentialsX/Configs/Discord-Installation', 'EssentialsX Discord 安装指南'],
           ]
         },
-        {
-          title: '使用',
-          children: [
-            
-          ]
-        }
       ],
 
       '/': [
