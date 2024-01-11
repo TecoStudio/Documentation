@@ -26,7 +26,46 @@ module.exports = {
         ['Commands', '👉 命令'],
         ['Permissions', '👩‍⚖️ 权限'],
         ['Frequently-Asked-Questions.md', '🙋‍♂️ 常见问题解答'],
-        
+        // 配置
+        {
+          title: '📖 配置',
+          children: [
+            ['/LevelledMobs/Configs/Settings.yml', '🔧 设置 (settings.yml)'],
+            ['/LevelledMobs/Configs/Debug-Misc', '🔧 调试'],
+            ['/LevelledMobs/Configs/Rules.yml', '📃 规则 (rules.yml)'],
+            ['/LevelledMobs/Configs/Conditions', '📃 条件'],
+            ['/LevelledMobs/Configs/Strategies', '📃 策略'],
+            ['/LevelledMobs/Configs/Apply-Settings', '📃 应用设置'],
+            ['/LevelledMobs/Configs/Understanding-the-Default-Config', '📃 了解默认规则'],
+            ['/LevelledMobs/Configs/Sample-Custom-Rules', '📃 示例自定义规则'],
+            ['/LevelledMobs/Configs/CustomDrops', '⚔ 自定义掉落 (customdrops.yml)'],
+            ['/LevelledMobs/Configs/Sample-Custom-Drops', '⚔ 示例自定义掉落'],
+            ['/LevelledMobs/Configs/Messages.yml', '💬 信息 (messages.yml)'],
+            ['/LevelledMobs/Configs/Official-Translations', '🎌 官方配置翻译'],
+            ['/LevelledMobs/Configs/Unofficial-Translations', '🎌 非官方配置翻译'],
+          ]
+        },
+        ['How-to-Videos', '👀 教程视频'],
+        ['Placeholders', '🔖 占位符'],
+        // 对于开发人员
+        {
+          title: '👩‍💻 对于开发人员',
+          children: [
+            ['/LevelledMobs/Developers/Developing-with-LevelledMobs', '👨‍💻 用 LM 开发'],
+            ['/LevelledMobs/Developers/Compiling-LevelledMobs', '👩‍🏭 用 LM 编译'],
+            ['/LevelledMobs/Developers/Pull-Requests', '🔀 拉取请求']
+          ]
+        },
+        ['https://arcaneplugins.github.io/LevelledMobs/', '📰 Java 文档'],
+        {
+          title: '📃 其他信息',
+          children: [
+            ['/LevelledMobs/Other/Credits', '💙 来源'],
+            ['/LevelledMobs/Other/Donations', '💸 捐助'],
+            ['/LevelledMobs/Other/Links-to-default-config-files', '🔗 链接到默认配置文件'],
+            ['/LevelledMobs/Other/bStats-Metrics-Notice', '📊 bStats 指标']
+          ]
+        }
       ],
 
       '/': [

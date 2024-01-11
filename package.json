@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TecoStudio's Documentation",
   "main": "index.md",
   "repository": "https://github.com/TecoStudio/document-website",
