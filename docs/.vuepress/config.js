@@ -26,6 +26,7 @@ module.exports = {
         ['Commands', '👉 命令'],
         ['Permissions', '👩‍⚖️ 权限'],
         ['Frequently-Asked-Questions.md', '🙋‍♂️ 常见问题解答'],
+        
       ],
 
       '/': [
