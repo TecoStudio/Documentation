@@ -1,5 +1,9 @@
 // Docs 配置文件
 module.exports = {
+  // Favicon
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   // 页面左上角标题栏
   title: 'TecoStudio Document',
   // 描述
