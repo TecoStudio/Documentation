@@ -34,32 +34,32 @@ EssentialsX Discord 提供您希望从 Discord 桥接器获得的*essential*功�
 
 1. 进入该页面后，单击右上角的"新建应用程序"按钮，为您的机器人命名，然后
     然后单击"创建"。
-> ![创建应用程序](./images/discord/create-app.gif)
+> ![创建应用程序](/images/discord/create-app.gif)
 > `新应用` -> 为应用程序命名 -> `创建`
 
 2. 创建应用程序后，您将被引导至其概览。 从这个界面，你
     需要复制您的"客户端 ID"/"应用程序 ID"并将其保存以供后续步骤使用。 复制你的
     Client ID，点击最左上角的蓝色"复制"按钮。 确保将其保存以供后续步骤使用。
-> ![复制客户端 ID](./images/discord/copy-client-id.gif)
+> ![复制客户端 ID](/images/discord/copy-client-id.gif)
 > `复制` -> 粘贴到记事本中以备后用
 
 3. 或者，您可以为您的应用程序设置一个图标，因为它也将是机器人的图标。
-> ![头像](./images/discord/avatar.png)
+> ![头像](/images/discord/avatar.png)
 
 4. 下一步实际上是为您的应用程序创建机器人用户。 从概览界面，
     这是通过转到左侧的"Bot"选项卡，然后单击右侧的"Add Bot"来完成的，
     最后点击"Yes,do it！"。
-> ![创建机器人](./images/discord/create-bot.gif)
+> ![创建机器人](/images/discord/create-bot.gif)
 > `Bot` -> `Add Bot` -> `Yes, do it!`
 
 5. 在此屏幕上后，您需要取消选中"公共机器人"设置，然后单击"保存更改"，
     所以其他人无法将您的机器人添加到不属于您自己的服务器。
-> ![禁用公共机器人](./images/discord/disable-public.gif)
+> ![禁用公共机器人](/images/discord/disable-public.gif)
 > 取消选中 `Public Bot` -> `Save Changes`
 
 6. 最后，您需要复制机器人的令牌并将其保存以供后续步骤使用。 要复制您的机器人令牌，
     点击你的机器人图标右边的蓝色"复制"按钮。 确保将其保存以供后续步骤使用。
-> ![复制令牌](./images/discord/copy-token.gif)
+> ![复制令牌](/images/discord/copy-token.gif)
 > `复制` -> 粘贴到记事本以供后续步骤使用
 
 7. 接下来是将您的机器人添加到您的 Discord 服务器。 首先，转到 [essentialsx.net/discord.html](https://essentialsx.net/discord.html)
@@ -68,13 +68,13 @@ EssentialsX Discord 提供您希望从 Discord 桥接器获得的*essential*功�
     选择要将机器人添加到哪个服务器。
     高级用户注意事项：**请使用上面的 `essentialsx.net` 链接，即使您已经知道如何操作
     邀请机器人。** EssentialsX Discord 需要的不仅仅是 `bot` 范围才能工作。
-> ![OAuth 链接生成器](./images/discord/auth.gif)
+> ![OAuth 链接生成器]/images/discord/auth.gif)
 > 粘贴客户端 ID -> `Authorize`
 
 8. 进入 Discord 授权网站后，从"选择服务器"下拉列表中选择服务器
     您要将机器人添加到其中。 接着点击"授权"按钮。 系统可能会提示您确认
     你不是机器人，请像对待任何其他验证码一样继续。
-> ![授权](./images/discord/add-bot.gif)
+> ![授权](/images/discord/add-bot.gif)
 > 选择服务器 -> `Authorize`"
 
 9. 对于接下来的几个步骤，您需要在 Discord 中做一些事情，所以启动您的
@@ -83,33 +83,33 @@ EssentialsX Discord 提供您希望从 Discord 桥接器获得的*essential*功�
 10. 进入 Discord 客户端后，您需要启用开发者模式。 通过进入
      设置，然后转到"高级"选项卡并选中底部的"开发人员模式"
      页。 选中"开发者模式"后，单击右上角的"X"退出设置。
-> ![开发者模式](./images/discord/dev-mode.gif)
+> ![开发者模式](/images/discord/dev-mode.gif)
 > `User Settings` -> `Advanced` -> 检查 `Developer Mode` -> 退出设置
 
 11. 接下来是复制一些 ID。 首先，您需要复制服务器（又名公会）ID。 通过找到您添加机器人的服务器，右键单击其图标，然后单击"复制 ID"来执行此操作。 复制后，请务必保存以供后续步骤使用。
-> ![公会 ID](./images/discord/guild-id.gif)
+> ![公会 ID](/images/discord/guild-id.gif)
 > 右键单击服务器 -> `复制 ID` -> 粘贴到记事本中以供后续步骤使用
 
 12. 您需要复制的另一个 ID 是您希望成为主频道的频道 ID。
      换句话说，这将是默认接收玩家聊天/加入/离开/死亡消息的频道
      消息以及静音/踢出。 要了解如何进一步配置消息类型，请参阅 [配置消息](#configuring-messages)。
-> ![主频道 ID](./images/discord/prim-id.gif)
+> ![主频道 ID](/images/discord/prim-id.gif)
 > 右键单击您的"主要"频道 -> `复制 ID` -> 粘贴到记事本以供后续步骤使用
 
 13. 您已成功复制了基本设置所需的所有必要 ID。 接下来是为 EssentialsX Discord 生成默认配置，这样您就可以开始设置它了！ 通过将
      EssentialsX Discord jar（如果您还没有，可以在 [此处](https://essentialsx.net/downloads.html) 下载）在您的插件文件夹中，启动您的服务器，然后在它完成后立即停止它 启动。
-> ![启动/停止服务器](./images/discord/start-stop.gif)
+> ![启动/停止服务器](/images/discord/start-stop.gif)
 > 将 EssentialsXDiscord.jar 拖入插件文件夹 -> 启动服务器 -> 停止服务器
 
 14. 现在您可以开始使用您之前复制的所有内容配置插件。 打开位于 `plugins/EssentialsDiscord/config.yml` 的 EssentialsX Discord 的配置。 当您打开配置时，首先要配置的是您的机器人的令牌。 将配置中的"INSERT-TOKEN-HERE"替换为您之前从第 6 步复制的令牌。
-> ![粘贴令牌](./images/discord/paste-token.gif)
+> ![粘贴令牌](/images/discord/paste-token.gif)
 > 从第 6 步重新复制令牌 -> 粘贴为令牌值
 
 15. 接下来是公会ID。 将配置中公会值的零替换为您从第 13 步复制的公会 ID。
-> ![粘贴公会](./images/discord/paste-guild.gif)
+> ![粘贴公会](/images/discord/paste-guild.gif)
 
 16. 最后，您需要粘贴从第 14 步复制的主要频道 ID，并将其作为主要值粘贴到频道部分，完成后保存配置文件！
-> ![粘贴主要](./images/discord/paste-prim.gif)
+> ![粘贴主要](/images/discord/paste-prim.gif)
 
 17. 恭喜，您已经完成了初始设置指南！ 启动服务器时，您应该注意到聊天和其他消息开始显示在您请求的频道中。 现在你已经完成了初始，回到 [目录](#table-of-contents) 看看你还能做些什么很酷的事情！
 
@@ -122,19 +122,19 @@ EssentialsX Discord 提供您希望从 Discord 桥接器获得的*essential*功�
 
 1. 转到您的机器人所在的 Discord 服务器，找到您希望用于控制台输出的频道。
     右键单击频道，然后单击"复制 ID"。 保存此 ID 以用于下一步。
-> ![副本 ID](./images/discord/copy-cons-id.gif)
+> ![副本 ID](/images/discord/copy-cons-id.gif)
 > 找到控制台频道 -> 右击 -> `Copy ID`
 
 2. 现在你已经复制了，打开 EssentialsX Discord 配置并找到"console"部分。 在该部分中，将"channel"值的零替换为您从上一步复制的频道 ID。 一旦你粘贴它，确保你保存了配置。
-> ![粘贴 ID](./images/discord/paste-cons-id.gif)
+> ![粘贴 ID](/images/discord/paste-cons-id.gif)
 
 3. 最后，如果您的服务器正在运行，请从您的控制台运行"ess reload"，否则启动您的服务器。 您应该注意到控制台输出被定向到该通道！ 如果您不介意默认设置，那么这就是您所需要的。 否则，如果您希望查看可以使用哪些其他选项来自定义控制台输出，请继续关注。
 
 4. 您可以自定义的第一件事是发送到 Discord 的消息格式。 默认情况下，会为每个控制台消息显示时间戳、级别（信息/警告/错误/等）和消息。 假设您想将时间戳和级别设为粗体：由于此消息将使用 Discord 的降价，我们只需在级别和时间戳的两侧添加 \*\* 即可。 然后，完成后，只需执行"/ess reload"，您应该会在 Discord 上看到您的更改。
-> ![粗体格式](./images/discord/bold-format.gif)
+> ![粗体格式](/images/discord/bold-format.gif)
 
 5.接下来，您还可以配置您希望在控制台消息上方显示的名称。 默认情况下，它是"EssX 控制台中继"，但可以切换为您想要的任何内容。
-> ![更改名称](./images/discord/change-name.gif)
+> ![更改名称](/images/discord/change-name.gif)
 
 6. 最后，您还可以选择启用一个选项，将控制台通道中用户发出的任何消息都视为控制台命令。 这意味着任何可以在您的控制台通道中发送消息的人**都可以作为控制台执行命令**。 建议您坚持使用常规的 ·、execute· 命令（参见 【Discord命令】（#discord-commands)/
 》 ！【命令中继】（。、images/discord/command-relay.gif)
@@ -196,7 +196,7 @@ EssentialsXDiscord旨在保持其消息类型系统足够基本，简单的事�
 
 
     ---最后，您还可以选择启用一个选项，将控制台通道中用户发出的任何消息都视为控制台命令。 这意味着任何可以在您的控制台通道中发送消息的人**都可以作为控制台执行命令**。 建议您坚持使用常规的 `/execute` 命令（参见 [Discord 命令](#discord-commands)），因为这些命令可以仅限于特定角色/用户，也不限于控制台频道。
-> ![命令中继](./images/discord/command-relay.gif)
+> ![命令中继](/images/discord/command-relay.gif)
 
 7.这就是命令中继的所有选项！
 
@@ -213,13 +213,13 @@ EssentialsX Discord 旨在保持其消息类型系统足够基本，简单的事
 
 1. 在 Discord 上找到您只想向其发送聊天消息的频道，然后右键单击该频道并单击
     "复制ID"。
-> ![复制 ID](./images/discord/chat-copy-id.gif)
+> ![复制 ID](/images/discord/chat-copy-id.gif)
 
 2. 接下来您需要创建实际的频道定义，在本例中我们将其称为"聊天"。 您可以通过向"channels"部分添加一个新条目来创建通道定义，其中键作为其名称，ID 作为您在上一步中复制的那个。
-> ![新定义](./images/discord/new-def.gif)
+> ![新定义](/images/discord/new-def.gif)
 
 3. 最后，向下滚动到"消息类型"部分并将"聊天"消息类型更改为新创建的频道定义。 执行此操作后，如果您的服务器正在运行或启动服务器，请保存并运行"/ess reload"。
-> ![移动](./images/discord/move-def.gif)
+> ![移动](/images/discord/move-def.gif)
 
 4. 这就是您需要了解的有关消息系统基础知识的全部内容！
 
@@ -233,7 +233,7 @@ EssentialsX Discord 旨在保持其消息类型系统足够基本，简单的事
 EssentialsX Discord 使用 Discord 的斜杠命令系统，让您在 Discord 中键入命令，而服务器中的其他人不会看到它。 使用此系统，您可以执行控制台命令、消息玩家并查看当前玩家列表。
 
 例如，默认情况下 `/execute` 命令如下所示：
-> ![/execute](./images/discord/execute-comand.gif)
+> ![/execute](/images/discord/execute-comand.gif)
 
 如您所见，您可以无缝地运行命令，而不会让人看到您的命令内容或他们的响应。 此外，您还可以在查看完回复后将其删除，这样它们就不会扰乱您的聊天。
 
@@ -245,7 +245,7 @@ EssentialsX Discord 使用 Discord 的斜杠命令系统，让您在 Discord 中
 * `hide-command`
     * Default: `true`
     * 描述：`是否其他人不应该能够看到你执行的命令。 设置为 false 将允许与您处于同一频道的人确切地看到您执行的命令。 在下面的示例中，您可以看到禁用此选项如何显示用户消息和他们执行的命令。`
-     * 例子： ![Show Command](./images/discord/show-command.gif)
+     * 例子： ![Show Command](/images/discord/show-command.gif)
 * `allowed-roles`
     * 描述：`允许使用该命令的用户 ID 或角色名称/ID 的列表。 您还可以使用'*'以允许所有人使用该命令。
 * `admin-roles`
