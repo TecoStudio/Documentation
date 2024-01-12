@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: https://github.com/TecoStudio/.github/blob/main/title.png?raw=true
+heroImage: /fullsize-logo.png
+heroHeight: 150
 heroText: TecoStudio - 帝咕团队
 tagline: 简称「TECO」成立于 2020.2.22 ，于 2022.7.22 在 MCBBS 上创立小组，是一个 Minecraft 综合团队。
 features:

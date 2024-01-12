@@ -86,6 +86,58 @@ export default {
           ],
         },
       ],
+      
+      // EssentialsX 侧栏配置
+      '/EssentialsX/': [
+        {
+          text: 'EssentialsX Docs',
+          children: [
+            // 主目录
+            '/EssentialsX/README.md',
+            {
+              text: '开始',
+              collapsible: true,
+              children: [
+                '/EssentialsX/Start/Installation.md',
+                '/EssentialsX/Start/Update-Migrate.md',
+                '/EssentialsX/Start/Core-Error.md',
+                '/EssentialsX/Start/Translation-Modify-Messages.md',
+                '/EssentialsX/Start/Frequently-Asked-Questions.md'
+              ]
+            },
+            {
+              text: '配置',
+              collapsible: true,
+              children: [
+                '/EssentialsX/Configs/Command-Cooling.md',
+                '/EssentialsX/Configs/Colour-Permissions.md',
+                '/EssentialsX/Configs/Custom-Lists.md', 
+                '/EssentialsX/Configs/Discord-Installation.md'
+              ]
+            },
+            {
+              text: '使用',
+              collapsible: true,
+              children: [
+                '/EssentialsX/Usages/Sign-Tutorial.md',
+                '/EssentialsX/Usages/BannerMeta.md'
+              ]
+            },
+            {
+              text: '模块',
+              collapsible: true,
+              children: [
+                '/EssentialsX/Components/AntiBuild.md',
+                '/EssentialsX/Components/GeoIP.md',
+                '/EssentialsX/Components/Protect.md',
+                '/EssentialsX/Components/XMPP.md'
+              ]
+            },
+            '/EssentialsX/Keywords.md',
+            '/EssentialsX/Help.md',
+          ]
+        }
+      ]
     },
 
     // 搜索栏
@@ -107,6 +159,6 @@ export default {
     smoothScroll: true,
 
     // 是否显示 Contributer
-    contributors: false
+    contributors: true
   }),
 }
