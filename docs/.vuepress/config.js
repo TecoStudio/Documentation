@@ -1,4 +1,5 @@
 import { defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 // Docs 配置文件
 export default {
   // Favicon
@@ -140,11 +141,6 @@ export default {
       ]
     },
 
-    // 搜索栏
-    search: true,
-    // 搜索栏最大推荐数量
-    searchMaxSuggestions: 10,
-
     // 最后编辑日期
     lastUpdated: 'Last Updated',
 
@@ -159,6 +155,22 @@ export default {
     smoothScroll: true,
 
     // 是否显示 Contributer
-    contributors: true
+    contributors: true,
   }),
+
+  // 插件
+  plugins: [
+    // 搜索栏
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        }
+      },
+      // 搜索最大推荐
+      maxSuggestions: 10,
+      // 搜索排除首页
+      isSearchable: (page) => page.path !== '/',
+    }),
+  ],
 }
