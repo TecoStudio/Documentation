@@ -146,6 +146,7 @@ export default {
 
     // GitHub 仓库
     repo: 'https://github.com/TecoStudio/document-website',
+    repoLabel: 'GitHub REPO',
     // 以下为可选的编辑链接选项
     docsBranch: 'master',
     // 默认是 false, 设置为 true 来启用
