@@ -8,7 +8,7 @@
   "license": "GNU GPL v3",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "NODE_OPTIONS='--openssl-legacy-provider' vuepress build docs"
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-rc.0"
