@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co/ySgMPd0/Levelled-Mobs-Banner-v2-0.png" alt="LevelledMobs Banner Graphic" height="300px"></img>
 
-# 欢迎来到生物等级Wiki
+# 📜 欢迎来到生物等级 Wiki
 
 **在这里可以了解到如何安装和使用！😀**
 

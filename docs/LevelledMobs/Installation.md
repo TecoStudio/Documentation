@@ -4,6 +4,8 @@
 
 ***
 
+# 🔌 安装
+
 # ⚠️ 安装“生物等级”插件前请阅读 ⚠️ 
 
 **请确保你的服务器与本插件是[兼容](https://github.com/lokka30/LevelledMobs/wiki/Compatibilities)的。** 在上一个目录里我们已经对我的世界版本、Java版本、服务端类型、插件等内容的[兼容性](https://github.com/lokka30/LevelledMobs/wiki/Compatibilities)作出了解释，在安装之前请务必仔细阅读上一个目录**兼容性Wiki**。

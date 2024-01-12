@@ -1,5 +1,6 @@
+import { defaultTheme } from 'vuepress'
 // Docs 配置文件
-module.exports = {
+export default {
   // Favicon
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }]
@@ -8,10 +9,10 @@ module.exports = {
   title: 'TecoStudio Document',
   // 描述
   description: 'Document of TecoStudio',
-  // 样式配置
-  themeConfig: {
+
+  theme: defaultTheme({
     // 导航栏配置
-    nav: [
+    navbar: [
       { text: '首页', link: '/' },
       { text: 'LevelledMobs', link: '/LevelledMobs/' },
       { text: 'EssentialsX', link: '/EssentialsX/' },
@@ -24,100 +25,67 @@ module.exports = {
     sidebar: {
       // LevelledMobs 侧边栏设置
       '/LevelledMobs/': [
-        ['', 'LevelledMobs介绍'],
-        ['Compatibilities', '🚥兼容性'],
-        ['Installation', '🔌 安装'],
-        ['Commands', '👉 命令'],
-        ['Permissions', '👩‍⚖️ 权限'],
-        ['Frequently-Asked-Questions.md', '🙋‍♂️ 常见问题解答'],
-        // 配置
         {
-          title: '📖 配置',
+          text: 'LevelledMobs Docs',
           children: [
-            ['/LevelledMobs/Configs/Settings.yml', '🔧 设置 (settings.yml)'],
-            ['/LevelledMobs/Configs/Debug-Misc', '🔧 调试'],
-            ['/LevelledMobs/Configs/Rules.yml', '📃 规则 (rules.yml)'],
-            ['/LevelledMobs/Configs/Conditions', '📃 条件'],
-            ['/LevelledMobs/Configs/Strategies', '📃 策略'],
-            ['/LevelledMobs/Configs/Apply-Settings', '📃 应用设置'],
-            ['/LevelledMobs/Configs/Understanding-the-Default-Config', '📃 了解默认规则'],
-            ['/LevelledMobs/Configs/Sample-Custom-Rules', '📃 示例自定义规则'],
-            ['/LevelledMobs/Configs/CustomDrops', '⚔ 自定义掉落 (customdrops.yml)'],
-            ['/LevelledMobs/Configs/Sample-Custom-Drops', '⚔ 示例自定义掉落'],
-            ['/LevelledMobs/Configs/Messages.yml', '💬 信息 (messages.yml)'],
-            ['/LevelledMobs/Configs/Official-Translations', '🎌 官方配置翻译'],
-            ['/LevelledMobs/Configs/Unofficial-Translations', '🎌 非官方配置翻译'],
-          ]
+            // 主目录
+            '/LevelledMobs/README.md',
+            '/LevelledMobs/Compatibilities.md',
+            '/LevelledMobs/Installation.md',
+            '/LevelledMobs/Permissions.md',
+            '/LevelledMobs/Frequently-Asked-Questions.md',
+            // 子目录 配置
+            {
+              text: '📖 配置',
+              // 是否折叠
+              collapsible: true,
+              children: [
+                '/LevelledMobs/Configs/Settings.yml',
+                '/LevelledMobs/Configs/Debug-Misc',
+                '/LevelledMobs/Configs/Rules.yml',
+                '/LevelledMobs/Configs/Conditions',
+                '/LevelledMobs/Configs/Strategies',
+                '/LevelledMobs/Configs/Apply-Settings',
+                '/LevelledMobs/Configs/Understanding-the-Default-Config',
+                '/LevelledMobs/Configs/Sample-Custom-Rules',
+                '/LevelledMobs/Configs/CustomDrops',
+                '/LevelledMobs/Configs/Sample-Custom-Drops',
+                '/LevelledMobs/Configs/Messages.yml',
+                '/LevelledMobs/Configs/Official-Translations',
+                '/LevelledMobs/Configs/Unofficial-Translations',
+              ]
+            },
+            '/LevelledMobs/How-to-Videos',
+            '/LevelledMobs/Placeholders',
+            // 子目录 对于开发人员
+            {
+              text: '👩‍💻 对于开发人员',
+              collapsible: true,
+              children: [
+                '/LevelledMobs/Developers/Developing-with-LevelledMobs',
+                '/LevelledMobs/Developers/Compiling-LevelledMobs',
+                '/LevelledMobs/Developers/Pull-Requests',
+                {
+                  text: '📰 Java 文档',
+                  link: 'https://arcaneplugins.github.io/LevelledMobs/',
+                  children: [],
+                }
+              ]
+            },
+            // 子目录 其他信息
+            {
+              text: '📃 其他信息',
+              collapsible: true,
+              children: [
+                '/LevelledMobs/Other/Credits',
+                '/LevelledMobs/Other/Donations',
+                '/LevelledMobs/Other/Links-to-default-config-files',
+                '/LevelledMobs/Other/bStats-Metrics-Notice',
+              ]
+            }
+          ],
         },
-        ['How-to-Videos', '👀 教程视频'],
-        ['Placeholders', '🔖 占位符'],
-        // 对于开发人员
-        {
-          title: '👩‍💻 对于开发人员',
-          children: [
-            ['/LevelledMobs/Developers/Developing-with-LevelledMobs', '👨‍💻 用 LM 开发'],
-            ['/LevelledMobs/Developers/Compiling-LevelledMobs', '👩‍🏭 用 LM 编译'],
-            ['/LevelledMobs/Developers/Pull-Requests', '🔀 拉取请求']
-          ]
-        },
-        ['https://arcaneplugins.github.io/LevelledMobs/', '📰 Java 文档'],
-        {
-          title: '📃 其他信息',
-          children: [
-            ['/LevelledMobs/Other/Credits', '💙 来源'],
-            ['/LevelledMobs/Other/Donations', '💸 捐助'],
-            ['/LevelledMobs/Other/Links-to-default-config-files', '🔗 链接到默认配置文件'],
-            ['/LevelledMobs/Other/bStats-Metrics-Notice', '📊 bStats 指标']
-          ]
-        }
       ],
-
-      // EssentialX的侧栏
-      '/EssentialsX/': [
-        ['', 'EssentialsX介绍'],
-        {
-          title: "开始",
-          children: [
-            ['/EssentialsX/Start/Installation', '安装'],
-            ['/EssentialsX/Start/Core-Error', '模块故障'],
-            ['/EssentialsX/Start/Update-Migrate', '改进 EssentialsX'],
-            ['/EssentialsX/Start/Translation-Modify-Messages', '翻译 & 消息自定义'],
-            ['/EssentialsX/Start/Frequently-Asked-Questions', '常见问题']
-          ]
-        },
-        {
-          title: '配置',
-          children: [
-            ['/EssentialsX/Configs/Command-Cooling', '命令冷却'],
-            ['/EssentialsX/Configs/Colour-Permissions', '颜色权限'],
-            ['/EssentialsX/Configs/Custom-Lists', '自定义&列表'],
-            ['/EssentialsX/Configs/Discord-Installation', 'EssentialsX Discord 安装指南'],
-          ]
-        },
-        {
-          title: '使用',
-          children: [
-            ['/EssentialsX/Usages/Sign-Tutorial', '告示教程'],
-            ['/EssentialsX/Usages/BannerMeta', 'BannerMeta']
-          ]
-        },
-        {
-          title: '模块',
-          children: [
-            ['/EssentialsX/Components/AntiBuild', '抗建造'],
-            ['/EssentialsX/Components/GeoIP', '地理位置'],
-            ['/EssentialsX/Components/Protect', '保护'],
-            ['/EssentialsX/Components/XMPP', 'XMPP'],
-          ]
-        },
-        ['Keywords', '关键词'],
-        ['Help', '帮助']
-      ],
-
-      // Fall Back
-      '/': [
-        ''
-      ]
     },
 
     // 搜索栏
@@ -136,6 +104,9 @@ module.exports = {
     editLinks: true,
 
     // 页面滚动
-    smoothScroll: true
-  },
+    smoothScroll: true,
+
+    // 是否显示 Contributer
+    contributors: false
+  }),
 }

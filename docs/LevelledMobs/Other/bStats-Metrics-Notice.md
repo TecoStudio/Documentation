@@ -4,6 +4,8 @@
 
 ***
 
+# 📊 bStats 指标
+
 # 玩家和服务器
 ![bStats Graph: players & servers on LevelledMobs over time](https://bstats.org/signatures/bukkit/LevelledMobs.svg)
 

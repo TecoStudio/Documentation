@@ -4,7 +4,7 @@
 
 ***
 
-# 消息配置
+# 💬 信息 (messages.yml)
 
 ## 关于：
 LevelledMobs 的 `messages.yml` 文件允许你自定义从插件发送的所有聊天消息。

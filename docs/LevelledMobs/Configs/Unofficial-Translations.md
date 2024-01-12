@@ -4,6 +4,8 @@
 
 ***
 
+# 🎌 非官方配置翻译
+
 以下翻译是由社区成员提供的。
 
 如果你翻译了任何LevelledMobs文件，请通过我们的 <a href="https://www.discord.io/arcaneplugins">Discord Server</a> 联系ArcanePlugins管理员，我们会把它列在这里! :smiley:
