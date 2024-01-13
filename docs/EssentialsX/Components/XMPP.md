@@ -36,7 +36,7 @@ Essentials XMPP 扩展为 Bukkit 服务器提供了一个 XMPP 网关。
 用户可以使用"/setxmpp [address]"命令注册自己的 XMPP 地址。 用户可以注册任何 XMPP/Jabber 兼容帐户，可以是专门为 XMPP 设置的帐户，也可以是提供 jabber id 的系统。 Facebook 用户可以在网站浏览中找到更多关于他们的 XMPP 服务的信息，但基本上是 /setxmpp [username]@chat.facebook.com。 Gmail 用户应该只使用他们的 gmail 地址。
 
 ### 向用户发送消息
-要向另一个用户发送消息，您可以使用"/xmpp [account] [message]"命令，使用玩家在游戏中的名称。
+要向另一个用户发送消息，您可以使用`/xmpp [account] [message]`命令，使用玩家在游戏中的名称。
 
 ### 聊天间谍
 并非每个允许 XMPP 的服务器都会启用 xmppspy，启用此功能会将所有游戏内聊天转发到 XMPP 帐户。 这将允许用户通过向服务器的 XMPP 地址发送消息来像在游戏中一样聊天。
