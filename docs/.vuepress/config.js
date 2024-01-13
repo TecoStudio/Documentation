@@ -17,6 +17,7 @@ export default {
       { text: '首页', link: '/' },
       { text: 'LevelledMobs', link: '/LevelledMobs/' },
       { text: 'EssentialsX', link: '/EssentialsX/' },
+      { text: 'OtherDrops', link: '/OtherDrops/'}
     ],
 
     // 侧边栏
@@ -99,43 +100,80 @@ export default {
               text: '开始',
               collapsible: true,
               children: [
-                '/EssentialsX/Start/Installation.md',
-                '/EssentialsX/Start/Update-Migrate.md',
-                '/EssentialsX/Start/Core-Error.md',
-                '/EssentialsX/Start/Translation-Modify-Messages.md',
-                '/EssentialsX/Start/Frequently-Asked-Questions.md'
+                '/EssentialsX/开始/安装-EssentialsX.md',
+                '/EssentialsX/开始/模块故障.md',
+                '/EssentialsX/开始/改进EssentialsX.md',
+                '/EssentialsX/开始/翻译&消息自定义.md',
+                '/EssentialsX/开始/常见问题.md'
               ]
             },
             {
               text: '配置',
               collapsible: true,
               children: [
-                '/EssentialsX/Configs/Command-Cooling.md',
-                '/EssentialsX/Configs/Colour-Permissions.md',
-                '/EssentialsX/Configs/Custom-Lists.md', 
-                '/EssentialsX/Configs/Discord-Installation.md'
+                '/EssentialsX/配置/命令冷却.md',
+                '/EssentialsX/配置/颜色权限.md',
+                '/EssentialsX/配置/自定义&列表.md', 
+                '/EssentialsX/配置/EssentialsX-Discord安装指南.md'
               ]
             },
             {
               text: '使用',
               collapsible: true,
               children: [
-                '/EssentialsX/Usages/Sign-Tutorial.md',
-                '/EssentialsX/Usages/BannerMeta.md'
+                '/EssentialsX/使用/告示教程.md',
+                '/EssentialsX/使用/BannerMeta.md'
               ]
             },
             {
               text: '模块',
               collapsible: true,
               children: [
-                '/EssentialsX/Components/AntiBuild.md',
-                '/EssentialsX/Components/GeoIP.md',
-                '/EssentialsX/Components/Protect.md',
-                '/EssentialsX/Components/XMPP.md'
+                '/EssentialsX/模块/AntiBuild-抗建造.md',
+                '/EssentialsX/模块/GeoIP-地理位置.md',
+                '/EssentialsX/模块/Protect-保护.md',
+                '/EssentialsX/模块/XMPP.md'
               ]
             },
-            '/EssentialsX/Keywords.md',
-            '/EssentialsX/Help.md',
+            '/EssentialsX/关键词.md',
+            '/EssentialsX/帮助.md',
+          ]
+        }
+      ],
+
+      // OtherDrops 侧栏
+      '/OtherDrops/': [
+        {
+          text: 'OtherDrops',
+          children: [
+            '/OtherDrops/README.md',
+            '/OtherDrops/常见问题(faq).md',
+            {
+              text: '掉落示例和设置',
+              collapsible: true,
+              children: [
+                '/OtherDrops/掉落示例和设置/基本示例.md',
+                '/OtherDrops/掉落示例和设置/钱_经验示例.md',
+                '/OtherDrops/掉落示例和设置/怪物_方块示例.md'
+              ]
+            },
+            {
+              text: '变量和操作',
+              collapsible: true,
+              children: [
+                '/OtherDrops/变量和操作/消息变量.md',
+                '/OtherDrops/变量和操作/命令操作.md'
+              ]
+            },
+            {
+              text: 'Misc页面',
+              collapsible: true,
+              children: [
+                '/OtherDrops/Misc页面/留下你对OtherDrops的评价.md',
+                '/OtherDrops/Misc页面/画廊.md',
+                '/OtherDrops/Misc页面/默认配置.md'
+              ]
+            }
           ]
         }
       ]

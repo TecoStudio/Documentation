@@ -68,7 +68,7 @@ EssentialsX Discord 提供您希望从 Discord 桥接器获得的*essential*功�
     选择要将机器人添加到哪个服务器。
     高级用户注意事项：**请使用上面的 `essentialsx.net` 链接，即使您已经知道如何操作
     邀请机器人。** EssentialsX Discord 需要的不仅仅是 `bot` 范围才能工作。
-> ![OAuth 链接生成器]/images/discord/auth.gif)
+> ![OAuth 链接生成器](/images/discord/auth.gif)
 > 粘贴客户端 ID -> `Authorize`
 
 8. 进入 Discord 授权网站后，从"选择服务器"下拉列表中选择服务器

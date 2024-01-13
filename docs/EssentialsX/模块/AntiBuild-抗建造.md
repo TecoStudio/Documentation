@@ -101,7 +101,8 @@ essentials.protect.alerts.notrigger
 ### 注意事项
 
 #### PEX
-PEX 没有正确遵循 superperms 规则，其行为会略有不同，因为 '权限id' 权限将不起作用。 但是，您仍然可以使用 '权限id:' 权限。 如果您需要将单个块的所有数据值列入白名单/否定，请改用：'权限id:*'。 例如：
+PEX 没有正确遵循 superperms 规则，其行为会略有不同，因为 `<id>` 权限将不起作用。 但是，您仍然可以使用 `<id>:` 权限。 如果您需要将单个块的所有数据值列入白名单/否定，请改用：`<id>:*`。 例如：
+
 ```
  permissions:
  - -essentials.build.place.54:*

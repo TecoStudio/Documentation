@@ -1,7 +1,3 @@
----
-description: 'Essentials 中文Wiki'
----
-
 # EssentialsX 介绍
 
 EssentialsX 是一个基于 Spigot 服务端的基础插件，为从大到小的服务器提供核心功能。这些功能包括：
