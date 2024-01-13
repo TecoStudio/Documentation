@@ -13,7 +13,7 @@ OtherDrops 是 Minecraft Spigot API 的插件，可用于更改生物死亡或�
 [[颜色和数据值 | 数据值]] - 列出了可用的颜色与数据值
 
 
-# 安装和配置
+## 安装和配置
 
 1. 关闭服务器。
 2. 如果你之前已经安装过，保存一份当前的 OtherDrops 文件夹，并删除原来的 otherdrops-config.yml 文件。
@@ -51,7 +51,7 @@ include-files:
 #  - my_custom_file1.yml
 ```
 
-# 定制配置
+## 定制配置
 让咱一步一个脚印地看看下面这个示例:
 
 ```yaml
@@ -92,7 +92,7 @@ otherdrops:
 
     - 最后一处阐释了特殊的"树叶腐烂"事件。树叶腐烂时，掉落苹果的概率为 10% —— 比人为破坏的概率要低。
 
-# 所有配置参数
+## 所有配置参数
 以下是参数的汇总列表：
 
 条件：tool, toolexcept, quantity, chance, worlds, weather, biomes, time, height, permissions, permissiongroups, exclusive, attackrange, regions(工具、除工具外、数量、几率、世界、天气、生物群系、时间、高度、权限、权限组、排他性、攻击范围、区域)。
@@ -102,7 +102,7 @@ otherdrops:
 
 有关完整的使用详情，请参阅：配置参数（即将推出）
 
-# ![核心功能](https://i.imgur.com/ACRducI.png)
+## ![核心功能](https://i.imgur.com/ACRducI.png)
 
 * 掉落任何物品！*
 * 使用触发器，例如方块破坏、战斗、钓鱼等
