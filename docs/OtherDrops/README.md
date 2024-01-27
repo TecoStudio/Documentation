@@ -102,7 +102,7 @@ otherdrops:
 
 有关完整的使用详情，请参阅：配置参数（即将推出）
 
-## 核心功能 ![核心功能](https://i.imgur.com/ACRducI.png)
+## 核心功能 <br> ![核心功能](https://i.imgur.com/ACRducI.png)
 
 * 掉落任何物品！*
 * 使用触发器，例如方块破坏、战斗、钓鱼等
@@ -132,7 +132,7 @@ otherdrops:
     * 玩家可以基于固定的金额或百分比，获得、损失及偷窃
     * 与 "MoneyDrop" 兼容，可以掉落实物货币物品。
 
-## 条件 ![条件](https://i.imgur.com/N1uRWTz.png)
+## 条件 <br> ![条件](https://i.imgur.com/N1uRWTz.png)
 
 * 支持多世界——为每个世界创建单独的文件
 * 添加几率值低至 0.000000001% 的超稀有掉落物
@@ -140,7 +140,7 @@ otherdrops:
 * Lore 名称，英雄（职业和等级）条件
 * 冷却时间
 
-## 行为 ![行为](https://i.imgur.com/iNVU6TE.png)
+## 行为 <br> ![行为](https://i.imgur.com/iNVU6TE.png)
 
 * 在掉落的同时应用动作（甚至没有掉落也可以）
 * 工具损坏、物品消耗（例如，使用染料给羊毛染色）
@@ -150,7 +150,7 @@ otherdrops:
 * 创建爆炸、闪电、视觉效果（包括粒子）、音效
 * 运行命令
 
-## 想法 ![想法](https://i.imgur.com/jrgCIDE.png)
+## 想法 <br>![想法](https://i.imgur.com/jrgCIDE.png)
 
 * 使树叶在挖掘 和/或 腐烂时掉落苹果、树枝、可可豆、树苗等。
 * 使玻璃、楼梯和船只可回收（可以指定所需工具）。
@@ -162,7 +162,7 @@ otherdrops:
 * 使怪物生成、掉落和事件特定于生物群系！
 
 
-## 联系 ![联系](https://i.imgur.com/p3KBhhv.png)
+## 联系 <br> ![联系](https://i.imgur.com/p3KBhhv.png)
 
 如果您有问题，请创建工单 (于 [GitHub](https://github.com/CoolLord22/OtherDrops/issues/new/choose)) 并请涵盖报错（如果有的话）。
 要获得支持、报告错误、获取更新信息、测试 Beta 更新等，请加入我们的[Discord](https://discord.gg/eHBxk5q).
