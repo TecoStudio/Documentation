@@ -15,9 +15,24 @@ export default {
     // 导航栏配置
     navbar: [
       { text: '首页', link: '/' },
-      { text: 'LevelledMobs', link: '/LevelledMobs/' },
-      { text: 'EssentialsX', link: '/EssentialsX/' },
-      { text: 'OtherDrops', link: '/OtherDrops/'}
+      { text: '官网', link: 'https://www.tecostudio.cn'},
+      {
+        text: '插件文档',
+        children: [
+          {
+            text: 'EssentialsX',
+            link: '/EssentialsX/',
+          },
+          {
+            text: 'LevelledMobs',
+            link: '/LevelledMobs/',
+          },
+          {
+            text: 'OtherDrops',
+            link: '/OtherDrops/',
+          },
+        ],
+      },
     ],
 
     // 侧边栏
