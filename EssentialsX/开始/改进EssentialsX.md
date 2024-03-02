@@ -200,7 +200,7 @@ _Requested in [#1032](https://github.com/drtshock/Essentials/issues/1032); added
 
 ### 邮件聊天格式
 
-_Requested in [#1560](/drtshock/Essentials/issues/1560); added in [665229b](https://github.com/drtshock/Essentials/commit/665229b)._
+_Requested in [#1560](https://github.com/drtshock/Essentials/issues/1560); added in [665229b](https://github.com/drtshock/Essentials/commit/665229b)._
 
 此功能引入了使用 `&` 格式化代码格式化 `/mail` 消息的能力 - [[Color-Permissions|click here]] 以获取更多信息。
 
