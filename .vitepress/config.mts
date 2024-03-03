@@ -129,7 +129,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/TecoStudio/Documentation/edit/vitepress/:path'
+      pattern: 'https://github.com/TecoStudio/Documentation/edit/tree/vitepress/:path'
     },
 
     search: {
@@ -137,7 +137,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TecoStudio/Documentation' }
-    ]
+      { icon: 'github', link: 'https://github.com/TecoStudio/Documentation/' },
+    ],
   }
 })
