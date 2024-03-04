@@ -82,9 +82,9 @@ export default defineConfig({
             text: '📖 配置',
             collapsed: false,
             items: [
-              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs/Configs/Settings.yml' },
+              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs/Configs/Settings.yml.md' },
               { text: '🔧 调试-杂项', link: '/LevelledMobs/Configs/Debug-Misc' },
-              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs/Configs/Rules.yml' },
+              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs/Configs/Rules.yml.md' },
               { text: '📃 条件', link: '/LevelledMobs/Configs/Conditions' },
               { text: '📃 策略', link: '/LevelledMobs/Configs/Strategies' },
               { text: '📃 应用设置', link: '/LevelledMobs/Configs/Apply-Settings' },
@@ -92,7 +92,7 @@ export default defineConfig({
               { text: '📃 示例自定义规则', link: '/LevelledMobs/Configs/Sample-Custom-Rules' },
               { text: '⚔ 自定义掉落 (customdrops.yml) 设置', link: '/LevelledMobs/Configs/CustomDrops' },
               { text: '⚔ 示例自定义掉落物', link: '/LevelledMobs/Configs/Sample-Custom-Drops' },
-              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs/Configs/Messages.yml' },
+              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs/Configs/Messages.yml.md' },
               { text: '🎌 官方配置翻译', link: '/LevelledMobs/Configs/Official-Translations' },
               { text: '🎌 非官方配置翻译', link: '/LevelledMobs/Configs/Unofficial-Translations' },
             ]
@@ -163,7 +163,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/TecoStudio/Documentation/edit/tree/vitepress/:path'
+      pattern: 'https://github.com/TecoStudio/Documentation/:path'
     },
 
     search: {
