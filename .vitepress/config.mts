@@ -141,7 +141,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '消息变量', link: '/OtherDrops/变量和操作/消息变量' },
-              { text: '命令操作', link: '/OtherDrops/变量和操作/命令变量' },
+              { text: '命令操作', link: '/OtherDrops/变量和操作/命令操作' },
             ]
           },
           {
