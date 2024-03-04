@@ -163,7 +163,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/TecoStudio/Documentation/:path'
+      pattern: 'https://github.com/TecoStudio/Documentation/edit/vitepress/:path'
     },
 
     search: {
