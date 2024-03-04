@@ -121,6 +121,40 @@ export default defineConfig({
           }
         ],
       }],
+
+      '/OtherDrops/': [{
+        text: 'OtherDrops 文档',
+        items: [
+          { text: '欢迎来到 OtherDrops 中文Wiki!', link: '/OtherDrops/'},
+          { text: '常见问题', link: '/OtherDrops/常见问题(FAQ)'},
+          { 
+            text: '掉落示例和设置', 
+            collapsed: false,
+            items: [
+              { text: '基本示例', link: '/OtherDrops/掉落示例和设置/基本示例'},
+              { text: '钱和经验示例', link: '/OtherDrops/掉落示例和设置/钱_经验示例' },
+              { text: '怪物和方块示例', link: '/OtherDrops/掉落示例和设置/怪物_方块示例' },
+            ]
+          },
+          { 
+            text: '变量和操作',
+            collapsed: false,
+            items: [
+              { text: '消息变量', link: '/OtherDrops/变量和操作/消息变量' },
+              { text: '命令操作', link: '/OtherDrops/变量和操作/命令变量' },
+            ]
+          },
+          {
+            text: 'Misc页面',
+            collapsed: false,
+            items: [
+              { text: '留下你对OtherDrops的评价', link: '/OtherDrops/Misc页面/留下你对OtherDrops的评价' },
+              { text: '画廊', link: '/OtherDrops/Misc页面/画廊' },
+              { text: '默认配置', link: '/OtherDrops/Misc页面/默认配置' },
+            ]
+          }
+        ],
+      }],
     },
 
     footer: {
