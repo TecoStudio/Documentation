@@ -16,7 +16,7 @@ const linkIcon = {
   
 const ops = [
   {
-    avatar: 'https://cdn.jianyuelab.net/personal/avatar.jpg',
+    avatar: '/avatar/jianyuehugo.jpg',
     name: 'JianyueHugo',
     title: '技术组组长',
     links: [
@@ -25,7 +25,7 @@ const ops = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/avatar/lyofficial.png',
+    avatar: '/avatar/lyofficial.png',
     name: 'LYOfficial',
     title: '总管/翻译组组长',
     links: [
@@ -34,7 +34,7 @@ const ops = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/avatar/pangpi.png',
+    avatar: '/avatar/pangpi.png',
     name: 'pipigod',
     title: '技术组组员',
     links: [
@@ -46,7 +46,7 @@ const ops = [
 
 const translator = [
   {
-    avatar: 'https://dz1d.space/wp-content/uploads/2024/01/logo.jpg',
+    avatar: '/avatar/dazidian.jpg',
     name: 'DaZiDian',
     title: '翻译组成员',
     links: [
@@ -55,7 +55,7 @@ const translator = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/avatar/sky_tianle.jpg',
+    avatar: '/avatar/sky_tianle.jpg',
     name: 'sky_tianle',
     title: '翻译组副组长',
     links: [
@@ -63,7 +63,7 @@ const translator = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/personal/avatar.jpg',
+    avatar: '/avatar/jianyuehugo.jpg',
     name: 'JianyueHugo',
     title: '技术组组长',
     links: [
@@ -72,7 +72,7 @@ const translator = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/avatar/lyofficial.png',
+    avatar: '/avatar/lyofficial.png',
     name: 'LYOfficial',
     title: '总管/翻译组组长',
     links: [
@@ -81,7 +81,7 @@ const translator = [
     ]
   },
   {
-    avatar: 'https://cdn.jianyuelab.net/avatar/annijang.jpg',
+    avatar: '/avatar/annijang.jpg',
     name: 'annijang',
     title: '翻译组成员',
     links: [
