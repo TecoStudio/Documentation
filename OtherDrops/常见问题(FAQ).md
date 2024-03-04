@@ -2,7 +2,7 @@ OtherDrops 是一个极其复杂的插件，需要学习与适应。我们希望
 
 ## Q: 如何安装 OtherDrops 的 Beta 版本？
 
-A: 要安装本插件的 Beta 版本，请加入我们的 [插件支持 Discord 服务器](discord.gg/eHBxk5q "获得 OtherDrops 支持的最佳地点")，随后阅读并接受我们的条款和条件。完成后，在 [#plugin-selection](https://discordapp.com) 频道中找到 "Plugin Notification Selection Menu"（插件通知选择菜单）<sup>[[1]](#fn1 "Footnote 1")</sup>。回复 B，并转到 [#beta-updates](https://discordapp.com/channels/418432278113550337/442705812234698752 "Beta Releases") 频道. 最新的 Beta 版将有一个 NEW 标签。对于 1.12 及以下版本，请使用 Legacy；对于 1.13 及以上版本，使用 1.13 就好。
+A: 要安装本插件的 Beta 版本，请加入我们的 [插件支持 Discord 服务器](https://discord.gg/eHBxk5q "获得 OtherDrops 支持的最佳地点")，随后阅读并接受我们的条款和条件。完成后，在 [#plugin-selection](https://discordapp.com) 频道中找到 "Plugin Notification Selection Menu"（插件通知选择菜单）<sup>[[1]](#fn1 "Footnote 1")</sup>。回复 B，并转到 [#beta-updates](https://discordapp.com/channels/418432278113550337/442705812234698752 "Beta Releases") 频道. 最新的 Beta 版将有一个 NEW 标签。对于 1.12 及以下版本，请使用 Legacy；对于 1.13 及以上版本，使用 1.13 就好。
 
 ## Q: OtherDrops 是否支持带有自定义名称和 Lore 的物品？
 
