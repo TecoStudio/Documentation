@@ -82,9 +82,9 @@ export default defineConfig({
             text: '📖 配置',
             collapsed: false,
             items: [
-              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs/Configs/Settings.yml' },
+              { text: '🔧 设置 (settings.yml) ', link: '/LevelledMobs/Configs/Settings.yml.md' },
               { text: '🔧 调试-杂项', link: '/LevelledMobs/Configs/Debug-Misc' },
-              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs/Configs/Rules.yml' },
+              { text: '📃 规则配置 (rules.yml)', link: '/LevelledMobs/Configs/Rules.yml.md' },
               { text: '📃 条件', link: '/LevelledMobs/Configs/Conditions' },
               { text: '📃 策略', link: '/LevelledMobs/Configs/Strategies' },
               { text: '📃 应用设置', link: '/LevelledMobs/Configs/Apply-Settings' },
@@ -92,7 +92,7 @@ export default defineConfig({
               { text: '📃 示例自定义规则', link: '/LevelledMobs/Configs/Sample-Custom-Rules' },
               { text: '⚔ 自定义掉落 (customdrops.yml) 设置', link: '/LevelledMobs/Configs/CustomDrops' },
               { text: '⚔ 示例自定义掉落物', link: '/LevelledMobs/Configs/Sample-Custom-Drops' },
-              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs/Configs/Messages.yml' },
+              { text: '💬 信息 (messages.yml)', link: '/LevelledMobs/Configs/Messages.yml.md' },
               { text: '🎌 官方配置翻译', link: '/LevelledMobs/Configs/Official-Translations' },
               { text: '🎌 非官方配置翻译', link: '/LevelledMobs/Configs/Unofficial-Translations' },
             ]
@@ -117,6 +117,40 @@ export default defineConfig({
               { text: '💸 捐助', link: '/LevelledMobs/Other/Donations' },
               { text: '🔗 默认配置文件', link: '/LevelledMobs/Other/Links-to-default-config-files' },
               { text: '📊 bStats 指标', link: '/LevelledMobs/Other/bStats-Metrics-Notice' },
+            ]
+          }
+        ],
+      }],
+
+      '/OtherDrops/': [{
+        text: 'OtherDrops 文档',
+        items: [
+          { text: '欢迎来到 OtherDrops 中文Wiki!', link: '/OtherDrops/'},
+          { text: '常见问题', link: '/OtherDrops/常见问题(FAQ)'},
+          { 
+            text: '掉落示例和设置', 
+            collapsed: false,
+            items: [
+              { text: '基本示例', link: '/OtherDrops/掉落示例和设置/基本示例'},
+              { text: '钱和经验示例', link: '/OtherDrops/掉落示例和设置/钱_经验示例' },
+              { text: '怪物和方块示例', link: '/OtherDrops/掉落示例和设置/怪物_方块示例' },
+            ]
+          },
+          { 
+            text: '变量和操作',
+            collapsed: false,
+            items: [
+              { text: '消息变量', link: '/OtherDrops/变量和操作/消息变量' },
+              { text: '命令操作', link: '/OtherDrops/变量和操作/命令操作' },
+            ]
+          },
+          {
+            text: 'Misc页面',
+            collapsed: false,
+            items: [
+              { text: '留下你对OtherDrops的评价', link: '/OtherDrops/Misc页面/留下你对OtherDrops的评价' },
+              { text: '画廊', link: '/OtherDrops/Misc页面/画廊' },
+              { text: '默认配置', link: '/OtherDrops/Misc页面/默认配置' },
             ]
           }
         ],

@@ -12,6 +12,6 @@
 
 ## To Do List:
 
-- [ ] OtherDrops 侧边栏
+- [x] OtherDrops 侧边栏
 - [ ] LevelledMobs 文件标题（一级标题全部需换成二级）
-- [ ] 成员列表
+- [x] 成员列表
