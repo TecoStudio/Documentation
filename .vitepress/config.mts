@@ -129,7 +129,8 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/TecoStudio/Documentation/edit/tree/vitepress/:path'
+      pattern: 'https://github.com/TecoStudio/Documentation/edit/tree/vitepress/:path',
+      text: '在 GitHub 编辑此页面'
     },
 
     search: {
@@ -139,5 +140,22 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/TecoStudio/Documentation/' },
     ],
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+        label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      },
+    },
   }
 })
