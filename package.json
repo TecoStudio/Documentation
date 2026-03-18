@@ -5,7 +5,12 @@
   },
   "scripts": {
     "dev": "vitepress dev",
+    "start": "vitepress preview --host 0.0.0.0 --port $PORT",
     "build": "vitepress build",
     "preview": "vitepress preview"
+  },
+  "engines": {
+    "node": ">=22",
+    "bun": ">=1.3"
   }
 }
